@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Link Memo",
+  "version": "0.1",
+  "description": "Kepp your memo with link",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "icons" : {
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_title": "Link Memo",
+    "default_popup": "memoList.html"
+  }
+}

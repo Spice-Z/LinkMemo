@@ -1,0 +1,13 @@
+html{
+  width:380px;
+  height: 700px;
+  padding: 5px;
+}
+
+.header{
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

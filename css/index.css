@@ -1,19 +1,140 @@
-html{
-  width:380px;
+html {
+  width: 380px;
   height: 700px;
   padding: 10px;
   box-sizing: border-box;
+  overflow: hidden;
+  font-size: 125%;
+  padding: 0;
+  background: #f5f6fb;
 }
 
-.header{
-  padding: 10px;
-  width: 100%;
+div,p,a {
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  top: -175%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
   background: #fff;
+  background: linear-gradient(#6244fd, #955fff);
+  border-radius: 50%;
+}
+
+.header-content {
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
+}
+
+.header-content-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.addCurrentPage {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  color: #fff;
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.addCurrentPage:hover {
+  background: #D0D0D0;
+}
+
+
+.resetList {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  background: #f5f6fb;
+  text-decoration: underline;
+  cursor: pointer;
+  outline: none;
+}
+
+.resetList:hover {
+  outline: none;
+  background: #939393;
+}
+
+.resetList:active {
+  outline: none;
 }
 
 .memoList {
-  margin-top: 100px;
+  margin-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.listElement {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0,0,0,.1);
+  border-radius: 5px;
+  display: flex;
+}
+
+.listElement-info {
+  width: 85%;
+  height: 100%;
+  overflow: hidden;
+  padding: 15px 0 15px 15px;
+  color: #626262;
+  text-decoration: none;
+}
+
+.listElement-info-title {
+  height: 70%;
+  margin: 0;
+  font-size: 110%;
+  font-weight: bold;
+  line-height: 140%;
+  overflow: hidden;
+}
+
+.listElement-info-link {
+  height: 30%;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  line-height: 150%;
+  font-size: 80%;
+  color: #939393;
+}
+
+.listElement-remove {
+  height: 100%;
+  width: 15%;
+  font-size: 180%;
+  font-weight: bold;
+  color: #D0D0D0;
+  cursor: pointer;
+  padding: 35px 10px 10px 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.listElement-info:hover {
+  background: rgba(148, 95, 255, 0.200);
+}
+
+.listElement-remove:hover {
+  background: rgba(178, 178, 178, 0.200);
 }

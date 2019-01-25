@@ -13,11 +13,11 @@ function renderList(list) {
     const listElement = document.createElement("div");
     listElement.setAttribute("class", "listElement");
     listElement.innerHTML = `
-        <a class="listElement-info" target="_blank" href="` + el.link + `">
-          <p class="listElemt-info-title">` + el.title + `</p>
-          <p class="listElement-info-link">` + el.link + `</p>
-        </a>
-        <div id="` + index + `" class="listElement-remove"></div>
+      <a class="listElement-info" target="_blank" href="` + el.link + `">
+        <p class="listElemt-info-title">` + el.title + `</p>
+        <p class="listElement-info-link">` + el.link + `</p>
+      </a>
+      <div id="` + index + `" class="listElement-remove">☓</div>
     `
     memoList.appendChild(listElement);
     const listItemNodes = document.getElementsByClassName("listElement-remove");

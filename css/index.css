@@ -132,9 +132,11 @@ div,p,a {
 }
 
 .listElement-info:hover {
+  border-radius: 5px 0 0 5px;
   background: rgba(148, 95, 255, 0.200);
 }
 
 .listElement-remove:hover {
+  border-radius: 0 5px 5px 0;
   background: rgba(178, 178, 178, 0.200);
 }

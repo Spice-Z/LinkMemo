@@ -6,7 +6,3 @@ document.getElementById('addCurrentPage').addEventListener('click',()=>{
 document.getElementById('resetList').addEventListener('click',()=>{
   resetList();
 })
-
-document.getElementById('resetList').addEventListener('click',()=>{
-  resetList();
-})

@@ -79,13 +79,13 @@ function resetList() {
 
 function createListElement(title, link, index) {
   const listElement = document.createElement("div");
-  listElement.setAttribute("class", "listElement");
+  listElement.className="listElement"
   listElement.innerHTML =
     `
     <a class="listElement-info" target="_blank" href="` +
     link +
     `">
-      <p class="listElemt-info-title">` +
+      <p class="listElement-info-title">` +
     title +
     `</p>
       <p class="listElement-info-link">` +

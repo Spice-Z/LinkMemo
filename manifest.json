@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Link Memo",
-  "version": "0.1",
-  "description": "Kepp your memo with link",
+  "version": "0.2",
+  "description": "Meom favorite link with pages's title. ",
   "permissions": [
     "storage",
     "tabs"
